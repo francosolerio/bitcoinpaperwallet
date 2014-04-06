@@ -71,6 +71,12 @@ directory and type in these two commands:
 And then verify the resulting signature's fingerprint against Canton Becker's
 published fingerprint at http://cantonbecker.com
 
+----------------------------------------
+For the Auroracoin fork check signature against Franco Solerio (franco@solerio.net) key
+  gpg --recv-key E57FD4F3
+  gpg --verify --with-fingerprint generate-wallet.html.sig generate-wallet.html
+----------------------------------------
+
 If you get warnings like "This key is not certified, there is no indication that
 the key belongs to the owner" do not worry, this is normal.
 
